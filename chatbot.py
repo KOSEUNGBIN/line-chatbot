@@ -54,10 +54,9 @@ def main(event, context):
             # message 개수 단위로 watson conversion api 에 요청
             # watson conversion api 결과를 Line api를 통해, Cients에게 전송
             for value in response_body:
+
                 responseFromWatson = request_message_to_watson(value)
-                logger.info(responseFromWatson['context']['system']['branch_exited_reason'])
-                if responseFromWatson['context']['system']['branch_exited_reason'] != 'completed':
-                    raise InvalidSignatureError
+
                 logger.info(' reply token : ' + value.reply_token)
 
                 value.message.text = responseFromWatson['output']['text'][0]
@@ -98,7 +97,7 @@ def request_message_to_watson(message):
         watsonResponse = conversation.message(
             workspace_id=config.watson_workspace_id,
             message_input={
-                'text': str(message)
+                'text': message.message.text
             }
         )
 
