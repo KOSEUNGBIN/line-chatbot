@@ -9,9 +9,6 @@
 
 
 ### Platform && SDK
->*AWS Gateway API*
-
->*AWS Lambda*
 
 >*line / line-bot-sdk-python*
 
@@ -21,7 +18,7 @@
 
 >*Watson Conversation API*
 
-       
+      
 <br>
 
 ## Reference
