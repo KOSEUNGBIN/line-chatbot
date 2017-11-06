@@ -4,25 +4,25 @@
 
 ## Features
 
+### FLOW
 ![FLOW](img/flow.png)
 
 
-*AWS Gateway API*
+### Platform && SDK
+>*AWS Gateway API*
 
-*AWS Lambda*
+>*AWS Lambda*
 
-*line / line-bot-sdk-python*
+>*line / line-bot-sdk-python*
 
-*Line Message API*
+>*Line Message API*
 
-*watson-developer-cloud / python-sdk*
+>*watson-developer-cloud / python-sdk*
 
-*Watson Conversation API*
+>*Watson Conversation API*
 
-    
-![Watson Conversation Workspace](./img/workspace.png)
-
-   
+       
+<br>
 
 ## Reference
 
