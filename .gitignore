@@ -9,7 +9,7 @@
 .idea/dictionaries
 config.py
 line-webhook
-chatbot
+chatbot/**
 lambda.zip
 
 # Sensitive or high-churn files:
