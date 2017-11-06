@@ -1,4 +1,4 @@
-# Line-Chatbot
+# Line-Chatbot [![PyPI](https://img.shields.io/badge/python-3.6-blue.svg)]()
 
    Line Message API, Watson Converation API를 이용한 Chatbot Prototype 개발
 
